@@ -1,20 +1,31 @@
 using System;
+using System.Text;
 
 namespace sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel
 {
     public class E_1_1_11_Print2dArray
     {
-        public void PrintArray(bool[][] array)
+        private const string STAR = "*";
+        private const string SPACE = " ";
+        
+        public string PrintArray(bool[,] array)
         {
-            for (var i = 0; i < array.Length; i++)
+            var result = new StringBuilder();
+            
+            for (var i = 0; i < array.GetLength(0); i++)
             {
-                for (var j = 0; j < array[i].Length; j++)
+                for (var j = 0; j < array.GetLength(1); j++)
                 {
-                    Console.Write(array[i][j] ? "*" : " ");
+                    result.Append(array[i,j] ? STAR : SPACE);
                 }
 
-                Console.WriteLine();
+                if (i < array.GetLength(0) - 1)
+                {
+                    result.AppendLine();
+                }
             }
+
+            return result.ToString();
         }
     }
 }
