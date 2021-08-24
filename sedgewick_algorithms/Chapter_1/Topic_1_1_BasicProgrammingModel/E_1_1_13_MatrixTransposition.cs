@@ -6,9 +6,9 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel
         {
             var result = new int[matrix.GetLength(1), matrix.GetLength(0)];
 
-            for (var i = 0; i < matrix.Length; i++)
+            for (var i = 0; i < matrix.GetLength(0); i++)
             {
-                for (var j = 0; j < matrix.Length; j++)
+                for (var j = 0; j < matrix.GetLength(1); j++)
                 {
                     result[j, i] = matrix[i, j];
                 }
