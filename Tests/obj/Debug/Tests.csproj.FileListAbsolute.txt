@@ -9,3 +9,14 @@
 /Users/tymurkoshel/Documents/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.csproj.CopyComplete
 /Users/tymurkoshel/Documents/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.dll
 /Users/tymurkoshel/Documents/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.pdb
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/bin/Debug/Tests.dll
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/bin/Debug/Tests.pdb
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/bin/Debug/nunit.framework.dll
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/bin/Debug/sedgewick_algorithms.exe
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/bin/Debug/sedgewick_algorithms.pdb
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/bin/Debug/nunit.framework.xml
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.csprojAssemblyReference.cache
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.csproj.CoreCompileInputs.cache
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.csproj.CopyComplete
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.dll
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/Tests/obj/Debug/Tests.pdb

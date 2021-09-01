@@ -4,21 +4,28 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel
 {
     public class E_1_1_14_LgMethod
     {
-        public double Lg(double value)
+        public int Lg(int value)
         {
             if (value == 0)
             {
-                return double.NegativeInfinity;
+                return int.MinValue;
             }
 
-            if (Math.Abs(value - 1) < Double.Epsilon)
+            if (value == 1)
             {
                 return 0;
             }
 
             var result = 1;
-            
-            
+            var calculation = 2;
+
+            while (calculation < value)
+            {
+                calculation *= 2;
+                result++;
+            }
+
+            return result;
         }
     }
 }

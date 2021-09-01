@@ -4,3 +4,9 @@
 /Users/tymurkoshel/Documents/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.csproj.CoreCompileInputs.cache
 /Users/tymurkoshel/Documents/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.exe
 /Users/tymurkoshel/Documents/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.pdb
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/sedgewick_algorithms/bin/Debug/sedgewick_algorithms.exe
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/sedgewick_algorithms/bin/Debug/sedgewick_algorithms.pdb
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.csprojAssemblyReference.cache
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.csproj.CoreCompileInputs.cache
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.exe
+/Users/tymurkoshel/Work/Personal/sedgewick_algorithms/sedgewick_algorithms/obj/Debug/sedgewick_algorithms.pdb
