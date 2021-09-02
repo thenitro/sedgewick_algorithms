@@ -5,9 +5,16 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel
         public long Fibonacci(int N)
         {
             if (N == 0) return 0;
-            if (N == 1) return 1;
+            
+            var table = new int[N + 1];
+                table[1] = 1;
 
-            return Fibonacci(N - 1) + Fibonacci(N - 2);
+            for (var i = 2; i <= N; i++)
+            {
+                table[i] = table[i - 1] + table[i - 2];
+            }
+
+            return table[N];
         }
     }
 }
