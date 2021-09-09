@@ -48,6 +48,7 @@
         <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\Test_E_1_1_15_Histogram.cs" />
         <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\Test_E_1_1_19_Fibonacci.cs" />
         <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\Test_E_1_1_20_LnFactorial.cs" />
+        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\Test_E_1_1_30_PrimeMatrix.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
