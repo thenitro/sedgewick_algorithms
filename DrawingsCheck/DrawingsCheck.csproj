@@ -4,13 +4,14 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{C01540CB-22F4-47E8-A904-92FD013666F9}</ProjectGuid>
+        <ProjectGuid>{0FBDEF82-E87E-4E38-8D61-E1E148247C8D}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>sedgewick_algorithms</RootNamespace>
-        <AssemblyName>sedgewick_algorithms</AssemblyName>
+        <RootNamespace>DrawingsCheck</RootNamespace>
+        <AssemblyName>DrawingsCheck</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -41,19 +42,17 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_11_Print2dArray.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_13_MatrixTransposition.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_14_LgMethod.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_15_Histogram.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_19_Fibonacci.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_20_LnFactorial.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_30_PrimeMatrix.cs" />
-        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_31_RandomConnections.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\sedgewick_algorithms\sedgewick_algorithms.csproj">
+        <Project>{c01540cb-22f4-47e8-a904-92fd013666f9}</Project>
+        <Name>sedgewick_algorithms</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

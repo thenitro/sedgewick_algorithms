@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sedgewick_algorithms", "sed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8C2CC4B6-A5F1-4672-B68B-23D051DAB06D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingsCheck", "DrawingsCheck\DrawingsCheck.csproj", "{0FBDEF82-E87E-4E38-8D61-E1E148247C8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{8C2CC4B6-A5F1-4672-B68B-23D051DAB06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C2CC4B6-A5F1-4672-B68B-23D051DAB06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C2CC4B6-A5F1-4672-B68B-23D051DAB06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBDEF82-E87E-4E38-8D61-E1E148247C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBDEF82-E87E-4E38-8D61-E1E148247C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBDEF82-E87E-4E38-8D61-E1E148247C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBDEF82-E87E-4E38-8D61-E1E148247C8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
