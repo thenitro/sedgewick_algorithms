@@ -52,6 +52,7 @@
         <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_32_Histogram.cs" />
         <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_33_MatrixLibrary.cs" />
         <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_35_DiceSimulation.cs" />
+        <Compile Include="Chapter_1\Topic_1_1_BasicProgrammingModel\E_1_1_36_EmpiricalShuffleCheck.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
