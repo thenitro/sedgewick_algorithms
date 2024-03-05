@@ -5,7 +5,7 @@ using sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel;
 namespace Tests.Chapter_1.Topic_1_1_BasicProgrammingModel
 {
     [TestFixture]
-    public class Test_E_1_1_36_EmpiricalShuffleCheck
+    public class Test_E_1_1_37_BadShuffling
     {
         [Test]
         public void SmokeTest()
@@ -24,7 +24,7 @@ namespace Tests.Chapter_1.Topic_1_1_BasicProgrammingModel
                     array[i] = i;
                 }
                 
-                E_1_1_36_EmpiricalShuffleCheck.Shuffle(array);
+                E_1_1_37_BadShuffling.Shuffle(array);
 
                 arrays[shuffleIndex] = array;
             }
