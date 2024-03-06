@@ -17,8 +17,8 @@ namespace Tests.Chapter_1.Topic_1_1_BasicProgrammingModel
         [Test]
         public void CheckTime()
         {
-            var whitelistItems = File.ReadLines("../../data/largeAllowlist.txt").Select(s => int.Parse(s)).ToArray();
-            var allItems = File.ReadLines("../../data/largeText.txt").Select(s => int.Parse(s)).ToArray();
+            var whitelistItems = File.ReadLines("./data/largeAllowlist.txt").Select(s => int.Parse(s)).ToArray();
+            var allItems = File.ReadLines("./data/largeText.txt").Select(s => int.Parse(s)).ToArray();
 
             Benchmark(allItems, whitelistItems, E_1_1_38_BinarySearchVersusBruteForceSearch.Rank, "Brute force {0}");
 
