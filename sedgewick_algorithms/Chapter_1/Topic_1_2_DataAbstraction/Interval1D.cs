@@ -13,7 +13,7 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_2_DataAbstraction
 
         public bool Contains(double x)
         {
-            return Lo >= x && x <= Hi;
+            return Lo <= x && Hi >= x;
         }
         
         public bool Intersects(Interval1D that)

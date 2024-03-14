@@ -1,5 +1,6 @@
 ﻿using System;
 using sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel;
+using sedgewick_algorithms.Chapter_1.Topic_1_2_DataAbstraction;
 
 namespace DrawingsCheck
 {
@@ -8,7 +9,8 @@ namespace DrawingsCheck
         public static void Main(string[] args)
         {
             //CheckRandomConnections();
-            CheckHistogram();
+            //CheckHistogram();
+            CheckIntersections();
         }
 
         private static void CheckRandomConnections()
@@ -27,6 +29,11 @@ namespace DrawingsCheck
             }
 
             new E_1_1_32_Histogram().Draw(10, 0.0, 10.0, values);
+        }
+        
+        private static void CheckIntersections()
+        {
+            new E_1_2_3_IntersectedIntervals2D().Generate(10, 10, 300);
         }
     }
 }
