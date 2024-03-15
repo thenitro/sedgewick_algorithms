@@ -61,6 +61,7 @@
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_1_ClosestDistance.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_2_IntersectedIntervals.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_3_IntersectedIntervals2D.cs" />
+        <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_6_CircularRotation.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Interval1D.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Interval2D.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Point2D.cs" />
