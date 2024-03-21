@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using NUnit.Framework;
 using sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel;
+using sedgewick_algorithms.Chapter_1.Topic_1_2_DataAbstraction;
 
 namespace Tests.Chapter_1.Topic_1_1_BasicProgrammingModel
 {
@@ -23,8 +24,10 @@ namespace Tests.Chapter_1.Topic_1_1_BasicProgrammingModel
             Benchmark(allItems, whitelistItems, E_1_1_38_BinarySearchVersusBruteForceSearch.Rank, "Brute force {0}");
 
             Array.Sort(allItems);
-            Benchmark(allItems, whitelistItems, BinarySearch.Rank, "Binary search {0}");
+            Benchmark(allItems, whitelistItems, RankWrapper, "Binary search {0}");
         }
+
+        private int RankWrapper(int key, int[] items) => BinarySearch.Rank(key, items);
 
         private void Benchmark(int[] allItems, int[] whiteListItems, Func<int, int[], int> rankFunction, string messageFormat)
         {
