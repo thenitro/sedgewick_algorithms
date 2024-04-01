@@ -11,7 +11,7 @@ namespace sedgewick_algorithms.Chapter_1
 
         public AbstractGraphicExercise()
         {
-            _bitmap = new Bitmap(1000, 1000, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
+            _bitmap = new Bitmap(ImageSize, ImageSize, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
             
             Graphics = Graphics.FromImage(_bitmap);
             Graphics.Clear(Color.FromKnownColor(KnownColor.White));

@@ -10,7 +10,8 @@ namespace DrawingsCheck
         {
             //CheckRandomConnections();
             //CheckHistogram();
-            CheckIntersections();
+            //CheckIntersections();
+            CheckVisualCounter();
         }
 
         private static void CheckRandomConnections()
@@ -34,6 +35,26 @@ namespace DrawingsCheck
         private static void CheckIntersections()
         {
             new E_1_2_3_IntersectedIntervals2D().Generate(10, 10, 300);
+        }
+
+        private static void CheckVisualCounter()
+        {
+            var N = 1000;
+            var counter = new E_1_2_10_VisualCounter(N, N);
+
+            for (var i = 0; i < N; i++)
+            {
+                if (new Random().NextDouble() > 0.7)
+                {
+                    counter.Decrement();
+                }
+                else
+                {
+                    counter.Increment();
+                }
+            }
+            
+            counter.Draw();
         }
     }
 }
