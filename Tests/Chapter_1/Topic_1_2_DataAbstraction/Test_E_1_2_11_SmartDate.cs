@@ -19,7 +19,7 @@ namespace Tests.Chapter_1.Topic_1_2_DataAbstraction
             
             try
             {
-                new E_1_2_11_SmartDate(month, day, year);
+                new SmartDate(month, day, year);
             }
             catch (Exception e)
             {
@@ -40,7 +40,7 @@ namespace Tests.Chapter_1.Topic_1_2_DataAbstraction
             
             try
             {
-                new E_1_2_11_SmartDate(month, day, year);
+                new SmartDate(month, day, year);
             }
             catch (Exception e)
             {
