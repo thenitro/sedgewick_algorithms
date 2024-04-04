@@ -70,6 +70,7 @@
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Interval2D.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Point2D.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Rect.cs" />
+        <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Transaction.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
