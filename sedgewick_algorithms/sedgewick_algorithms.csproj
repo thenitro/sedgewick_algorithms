@@ -61,6 +61,7 @@
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Counter.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Date.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_10_VisualCounter.cs" />
+        <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Rational.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\SmartDate.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_1_ClosestDistance.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\E_1_2_2_IntersectedIntervals.cs" />
