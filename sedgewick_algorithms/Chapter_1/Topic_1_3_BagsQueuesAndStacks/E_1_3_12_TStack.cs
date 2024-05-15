@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
 {
-    public class TStack<T> : IEnumerable<T>
+    public class E_1_3_12_TStack<T> : IEnumerable<T>
     {
         public int Count { get; private set; }
         
@@ -60,9 +60,9 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
             return GetEnumerator();
         }
 
-        public TStack<T> Copy()
+        public E_1_3_12_TStack<T> Copy()
         {
-            var copy = new TStack<T>();
+            var copy = new E_1_3_12_TStack<T>();
 
             for (var i = 0; i < Count; i++)
             {

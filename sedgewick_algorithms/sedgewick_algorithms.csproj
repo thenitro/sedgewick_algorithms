@@ -74,13 +74,12 @@
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Transaction.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_10_InfixToPostfix.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_11_EvaluatePostfix.cs" />
-        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_12_StackCopy.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_2_StackOutput.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_3_PushPop.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_4_Parentheses.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_9_MissedParentheses.cs" />
-        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\FixedCapacityStackOfStrings.cs" />
-        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\TStack.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_1_FixedCapacityStackOfStrings.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_12_TStack.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

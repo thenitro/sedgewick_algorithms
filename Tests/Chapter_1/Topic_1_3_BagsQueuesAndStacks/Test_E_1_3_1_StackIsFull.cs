@@ -9,7 +9,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void SmokeTest()
         {
-            var stack = new FixedCapacityStackOfStrings(3);
+            var stack = new E_1_3_1_FixedCapacityStackOfStrings(3);
             Assert.False(stack.IsFull);
             
             stack.Push("1");

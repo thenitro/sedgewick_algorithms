@@ -9,7 +9,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void BasicOperationsTest()
         {
-            var stack = new TStack<string>();
+            var stack = new E_1_3_12_TStack<string>();
             Assert.AreEqual(0, stack.Count);
             
             stack.Push("a");
@@ -31,7 +31,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void EnumeratorTest()
         {
-            var stack = new TStack<string>();
+            var stack = new E_1_3_12_TStack<string>();
             stack.Push("a");
             stack.Push("b");
             stack.Push("c");
@@ -51,7 +51,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void Smoke()
         {
-            var stack = new TStack<string>();
+            var stack = new E_1_3_12_TStack<string>();
             stack.Push("a");
             stack.Push("b");
             stack.Push("c");
