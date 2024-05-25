@@ -15,6 +15,8 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         public T Value { get; }
         public Node<T> Next;
 
+        public bool HasNext => Next != null;
+
         public Node(T value, Node<T> next)
         {
             Value = value;
