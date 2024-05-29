@@ -81,6 +81,7 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_24_RemoveAfter.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_25_InsertAfter.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_26_RemoveKey.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_27_Max.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_2_StackOutput.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_3_PushPop.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_4_Parentheses.cs" />
