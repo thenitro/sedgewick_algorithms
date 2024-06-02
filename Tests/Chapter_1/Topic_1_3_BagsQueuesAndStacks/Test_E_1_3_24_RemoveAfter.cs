@@ -9,9 +9,9 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void Smoke()
         {
-            var node1 = new Node<int>(1);
-            var node2 = new Node<int>(2);
-            var node3 = new Node<int>(3);
+            var node1 = new LinkedListNode<int>(1);
+            var node2 = new LinkedListNode<int>(2);
+            var node3 = new LinkedListNode<int>(3);
 
             node1.Next = node2;
             node2.Next = node3;

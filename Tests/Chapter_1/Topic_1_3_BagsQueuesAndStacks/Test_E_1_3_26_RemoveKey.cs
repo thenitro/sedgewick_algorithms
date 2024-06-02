@@ -9,7 +9,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void AllSameKey()
         {
-            var list = new TLinkedList<string>(new Node<string>("1", new Node<string>("1", new Node<string>("1"))));
+            var list = new TLinkedList<string>(new LinkedListNode<string>("1", new LinkedListNode<string>("1", new LinkedListNode<string>("1"))));
             new E_1_3_26_RemoveKey().Solution(list, "1");
             Assert.Null(list.First);
         }
@@ -17,7 +17,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void NoKey()
         {
-            var list = new TLinkedList<string>(new Node<string>("1", new Node<string>("1", new Node<string>("1"))));
+            var list = new TLinkedList<string>(new LinkedListNode<string>("1", new LinkedListNode<string>("1", new LinkedListNode<string>("1"))));
             new E_1_3_26_RemoveKey().Solution(list, "-1");
             Assert.AreEqual("1", list.First.Value);
             Assert.AreEqual("1", list.First.Next.Value);
@@ -27,7 +27,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void First()
         {
-            var list = new TLinkedList<string>(new Node<string>("-1", new Node<string>("1", new Node<string>("1"))));
+            var list = new TLinkedList<string>(new LinkedListNode<string>("-1", new LinkedListNode<string>("1", new LinkedListNode<string>("1"))));
             new E_1_3_26_RemoveKey().Solution(list, "-1");
             Assert.AreEqual("1", list.First.Value);
             Assert.AreEqual("1", list.First.Next.Value);
@@ -36,7 +36,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void Last()
         {
-            var list = new TLinkedList<string>(new Node<string>("1", new Node<string>("1", new Node<string>("-1"))));
+            var list = new TLinkedList<string>(new LinkedListNode<string>("1", new LinkedListNode<string>("1", new LinkedListNode<string>("-1"))));
             new E_1_3_26_RemoveKey().Solution(list, "-1");
             Assert.AreEqual("1", list.First.Value);
             Assert.AreEqual("1", list.First.Next.Value);
@@ -45,7 +45,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void Smoke()
         {
-            var list = new TLinkedList<string>(new Node<string>("1", new Node<string>("-1", new Node<string>("1"))));
+            var list = new TLinkedList<string>(new LinkedListNode<string>("1", new LinkedListNode<string>("-1", new LinkedListNode<string>("1"))));
             new E_1_3_26_RemoveKey().Solution(list, "-1");
             Assert.AreEqual("1", list.First.Value);
             Assert.AreEqual("1", list.First.Next.Value);

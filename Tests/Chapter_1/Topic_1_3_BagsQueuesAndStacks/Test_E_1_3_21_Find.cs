@@ -9,7 +9,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void Smoke()
         {
-            var list = new TLinkedList<string>(new Node<string>("1", new Node<string>("2", new Node<string>("3"))));
+            var list = new TLinkedList<string>(new LinkedListNode<string>("1", new LinkedListNode<string>("2", new LinkedListNode<string>("3"))));
             
             Assert.False(new E_1_3_21_Find().Solution(list, "0"));
             Assert.True(new E_1_3_21_Find().Solution(list, "1"));

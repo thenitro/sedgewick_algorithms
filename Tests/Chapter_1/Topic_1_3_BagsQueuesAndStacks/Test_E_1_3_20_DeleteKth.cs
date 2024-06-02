@@ -9,7 +9,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void SmokeTest()
         {
-            var list = new TLinkedList<int>(new Node<int>(1, new Node<int>(2, new Node<int>(3))));
+            var list = new TLinkedList<int>(new LinkedListNode<int>(1, new LinkedListNode<int>(2, new LinkedListNode<int>(3))));
             
             new E_1_3_20_DeleteKth().Solution(list, 1);
             
@@ -20,7 +20,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void DeleteFirst()
         {
-            var list = new TLinkedList<int>(new Node<int>(1, new Node<int>(2, new Node<int>(3))));
+            var list = new TLinkedList<int>(new LinkedListNode<int>(1, new LinkedListNode<int>(2, new LinkedListNode<int>(3))));
             
             new E_1_3_20_DeleteKth().Solution(list, 0);
             
@@ -31,7 +31,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void DeleteLast()
         {
-            var list = new TLinkedList<int>(new Node<int>(1, new Node<int>(2, new Node<int>(3))));
+            var list = new TLinkedList<int>(new LinkedListNode<int>(1, new LinkedListNode<int>(2, new LinkedListNode<int>(3))));
             
             new E_1_3_20_DeleteKth().Solution(list, 2);
             

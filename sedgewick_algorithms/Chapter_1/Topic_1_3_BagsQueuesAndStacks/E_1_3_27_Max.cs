@@ -4,7 +4,7 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
 {
     public class E_1_3_27_Max
     {
-        public uint Solution(Node<uint> first)
+        public uint Solution(LinkedListNode<uint> first)
         {
             var current = first;
             var max = (uint)0;

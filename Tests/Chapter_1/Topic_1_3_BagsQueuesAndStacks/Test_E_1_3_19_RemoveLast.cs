@@ -9,7 +9,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void SmokeTest()
         {
-            var list = new TLinkedList<int>(new Node<int>(1, new Node<int>(2, new Node<int>(3))));
+            var list = new TLinkedList<int>(new LinkedListNode<int>(1, new LinkedListNode<int>(2, new LinkedListNode<int>(3))));
 
             new E_1_3_19_RemoveLast().Solution(list);
 
@@ -28,7 +28,7 @@ namespace Tests.Chapter_1.Topic_1_3_BagsQueuesAndStacks
         [Test]
         public void OneNodeTest()
         {
-            var list = new TLinkedList<int>(new Node<int>(1));
+            var list = new TLinkedList<int>(new LinkedListNode<int>(1));
 
             new E_1_3_19_RemoveLast().Solution(list);
 
