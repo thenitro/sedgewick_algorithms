@@ -73,6 +73,7 @@
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Rect.cs" />
         <Compile Include="Chapter_1\Topic_1_2_DataAbstraction\Transaction.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\CircularLinkedList.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\DoubleNode.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_10_InfixToPostfix.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_11_EvaluatePostfix.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_14_ResizingArrayQueue.cs" />
@@ -88,6 +89,7 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_29_QueueViaCircularLinkedList.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_2_StackOutput.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_30_ReverseLinkedList.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_32_Steque.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_3_PushPop.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_4_Parentheses.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_9_MissedParentheses.cs" />
