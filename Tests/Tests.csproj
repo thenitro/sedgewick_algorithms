@@ -85,6 +85,7 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_31_DoubleNode.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_32_Steque.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_33_Deque.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_34_RandomBag.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_3_PushPop.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_4_Parentheses.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_9_MissedParentheses.cs" />
