@@ -6,12 +6,12 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
     public class E_1_3_35_BridgeDeck
     {
         private const int AmountOfCardsPerHand = 13;
-        public E_1_3_35_RandomQueue<Card> Deck { get; private set; }
+        public RandomQueue<Card> Deck { get; private set; }
         
         public E_1_3_35_BridgeDeck()
         {
-            Deck = new E_1_3_35_RandomQueue<Card>();
-
+            Deck = new RandomQueue<Card>();
+            
             foreach (var suite in Enumerate<CardSuit>())
             {
                 foreach (var rank in Enumerate<CardRank>())

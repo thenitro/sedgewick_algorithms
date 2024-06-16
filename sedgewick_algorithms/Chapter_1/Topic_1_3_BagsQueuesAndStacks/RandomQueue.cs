@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
 {
-    public class E_1_3_35_RandomQueue<T>
+    public class RandomQueue<T> : IEnumerable<T>
     {
         public bool IsEmpty => Count == 0;
         public int Count { get; private set; }
@@ -40,9 +42,32 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
 
         public T Sample()
         {
-            var random = new Random().Next(Count - 1);
-            (_data[Count - 1], _data[random]) = (_data[random], _data[Count - 1]);
-            return _data[Count - 1];
+            return Sample(Count - 1);
+        }
+
+        private T Sample(int position)
+        {
+            var random = new Random().Next(position);
+            (_data[position], _data[random]) = (_data[random], _data[position]);
+            return _data[position];
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (var i = Count - 1; i >= 0; i--)
+            {
+                Sample(i);
+            }
+
+            for (var i = Count - 1; i >= 0; i--)
+            {
+                yield return _data[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

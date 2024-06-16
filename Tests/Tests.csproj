@@ -88,6 +88,7 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_34_RandomBag.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_35_BridgeDeck.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_35_RandomQueue.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_36_RandomQueueIterator.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_3_PushPop.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_4_Parentheses.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\Test_E_1_3_9_MissedParentheses.cs" />
