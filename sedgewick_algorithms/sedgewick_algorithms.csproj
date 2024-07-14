@@ -99,6 +99,7 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_38_DeleteKthElementQueue_LinkedList.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_39_RingBuffer.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_40_MoveToFront.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_41_CopyQueue.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\IGeneralizedQueue.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\RandomQueue.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_3_PushPop.cs" />
