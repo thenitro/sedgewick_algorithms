@@ -103,6 +103,8 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_42_CopyStack.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_43_ListingFiles.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_44_TextEditorBuffer.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_45_StackGenerability.cs" />
+        <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_46_ForbiddenTripleStackGenerability.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\IGeneralizedQueue.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\RandomQueue.cs" />
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\E_1_3_3_PushPop.cs" />

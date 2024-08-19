@@ -62,5 +62,25 @@ namespace sedgewick_algorithms.Chapter_1.Topic_1_3_BagsQueuesAndStacks
             
             _head = node;
         }
+
+        public void Concat(E_1_3_32_Steque<T> other)
+        {
+            if (_tail == null)
+            {
+                _tail = other._head;
+                _head = other._head;
+            }
+            else
+            {
+                _tail.Next = other._head;
+
+                if (other._head != null)
+                {
+                    other._head.Prev = _tail;
+                }
+
+                _tail = other._tail;
+            }
+        }
     }
 }
