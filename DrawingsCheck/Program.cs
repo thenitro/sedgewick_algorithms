@@ -1,6 +1,7 @@
 ﻿using System;
 using sedgewick_algorithms.Chapter_1.Topic_1_1_BasicProgrammingModel;
 using sedgewick_algorithms.Chapter_1.Topic_1_2_DataAbstraction;
+using sedgewick_algorithms.Chapter_1.Topic_1_4_AnalysisOfAlgorithms;
 
 namespace DrawingsCheck
 {
@@ -11,7 +12,8 @@ namespace DrawingsCheck
             //CheckRandomConnections();
             //CheckHistogram();
             //CheckIntersections();
-            CheckVisualCounter();
+            //CheckVisualCounter();
+            CheckDoublingTest();
         }
 
         private static void CheckRandomConnections()
@@ -55,6 +57,11 @@ namespace DrawingsCheck
             }
             
             counter.Draw();
+        }
+
+        private static void CheckDoublingTest()
+        {
+            new E_1_4_3_DoublingTest(5000);
         }
     }
 }
