@@ -118,6 +118,7 @@
         <Compile Include="Chapter_1\Topic_1_3_BagsQueuesAndStacks\TLinkedList.cs" />
         <Compile Include="Chapter_1\Topic_1_4_AnalysisOfAlgorithms\E_1_4_10_MinimumIndexBinarySearch.cs" />
         <Compile Include="Chapter_1\Topic_1_4_AnalysisOfAlgorithms\E_1_4_11_StaticSetOfInts.cs" />
+        <Compile Include="Chapter_1\Topic_1_4_AnalysisOfAlgorithms\E_1_4_12_MergeTwoSortedArrays.cs" />
         <Compile Include="Chapter_1\Topic_1_4_AnalysisOfAlgorithms\E_1_4_3_DoublingTest.cs" />
         <Compile Include="Chapter_1\Topic_1_4_AnalysisOfAlgorithms\E_1_4_8_EqualPairs.cs" />
         <Compile Include="Program.cs" />
